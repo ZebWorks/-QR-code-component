@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__content {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: min-content;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content__layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__image img {
+  width: 300px;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+
+.card__p1 {
+  font-weight: 700;
+  font-size: 23px;
+  color: hsl(218, 44%, 22%);
+}
+
+.card__p2 {
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+/*It's responsible, but I believe, that I still had to put media queries in ( I'm a newbie :) )*/
